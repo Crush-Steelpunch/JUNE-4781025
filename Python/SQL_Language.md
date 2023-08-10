@@ -55,3 +55,17 @@ SELECT Names,Age FROM PeopleTable WHERE Alive=True`
 ```SQL
 SELECT Names,Age FROM PeopleTable WHERE Alive=True ORDER BY Age DESC`
 ```
+
+
+## INSERT statment
+
+`INSERT INTO <table> (<column_names>,...) VALUES (<values>,...)`
+
+``SQL
+INSERT INTO PeopleTable (ID,Name,Age,Alive) VALUES (4,"Jane",40,True)
+```
+
+
+## UPDATE statment
+
+`UPDATE <table> SET <col_name>=<data>,... WHERE <filter query>`
