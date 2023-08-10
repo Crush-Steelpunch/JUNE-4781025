@@ -1,7 +1,8 @@
-# Download the sqlite ODBC driver for your OS here
+# Download and install the sqlite ODBC driver for your OS here
 #
 # <http://www.ch-werner.de/sqliteodbc/>
 #
+# Windows 10 & 11 will need the sqliteodbc_w64.exe one.
 # the DATABASE=test.db will create a file of that name in your project directory
 
 import pyodbc
