@@ -8,4 +8,4 @@ postcode: W1 1AA
 ```
 - Change all the companies in London to 'West London'
 
-- Delete  'Janene from the salesperson table
+- Delete  'Inge' from the salesperson table
