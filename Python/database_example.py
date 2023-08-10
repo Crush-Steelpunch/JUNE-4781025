@@ -14,23 +14,27 @@ cur = conn.cursor()
 result = cur.execute('SELECT * FROM company').fetchall()
 justnames = cur.execute('SELECT company_name,county FROM company').fetchall()
 contacttable = cur.execute('SELECT * FROM contact').fetchall()
-
-
-
 # Gather a list of tables
 tables = cur.tables()
+
+# Gather column names from a table
+colnames = cur.columns('company')
+
+# We close the connection
+conn.close()
+
+# Print all our gathered information
 print('--- Tables ---')
 for i in tables:
     print(i)
 
-# Gather column names from a table
+
 print('--- Company Columns ---')
-colnames = cur.columns('company')
+
 for i in colnames:
     print(i)
 
-# We close the connection
-conn.close()
+
 # We display the result we saved
 for row in result:
     print(row)

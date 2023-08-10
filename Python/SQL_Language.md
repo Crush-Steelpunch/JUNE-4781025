@@ -45,3 +45,13 @@ SELECT Names,Age FROM PeopleTable WHERE Alive=True`
 - BETWEEN
 - LIKE
 - IN 
+
+## ORDER BY -- sort by fields
+
+
+`SELECT <COL> FROM <TABLE> WHERE <Filtering-Terms> ORDER BY <COL> ASC`
+
+
+```SQL
+SELECT Names,Age FROM PeopleTable WHERE Alive=True ORDER BY Age DESC`
+```
