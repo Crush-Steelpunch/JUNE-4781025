@@ -21,3 +21,7 @@ else:
 resultvar = db_functionquery.dbquery("SELECT * FROM company")
 for i in resultvar:
     print(i)
+
+showstaff = db_functionquery.dbquery("SELECT * FROM sale")
+for i in showstaff:
+    print(i)
