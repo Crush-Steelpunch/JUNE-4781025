@@ -4,3 +4,8 @@ resultvar = db_functionquery.dbquery("SELECT company_no,company_name FROM compan
 
 for i in resultvar:
     print(i)
+
+
+showstaff = db_functionquery.dbquery("SELECT * FROM salesperson")
+for i in showstaff:
+    print(i)
