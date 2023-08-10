@@ -4,3 +4,4 @@
 
 /.vs
 *.pyc
+/test.db
