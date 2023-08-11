@@ -5,3 +5,6 @@ def test_myfunctions():
     assert myapp.myfunctions.maxthreenumbers(6,4,2) == 6
     assert myapp.myfunctions.maxthreenumbers(2,6,4) == 6
     assert myapp.myfunctions.maxthreenumbers(4,2,6) == 6
+
+
+# run coverage reports with `pytest --cov myapp --cov-report html`
