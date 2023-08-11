@@ -11,6 +11,14 @@ BEGIN
 DROP TABLE PeopleTable
 END
 """
+# Example Student Table SQL
+StudentTable="""CREATE TABLE Student (
+StudentID int NOT NULL,
+FirstName nvarchar(40) NOT NULL,
+Surname nvarchar(30) NULL,
+Course nvarchar(30) NULL,
+City nvarchar(15) NULL)"""
+
 
 retval = db_functionquery.dbquery(sqlStr)
 print('Dropped the People Table returned', retval)
