@@ -8,7 +8,7 @@
 import pyodbc
 
 def dbquery(statement):
-    connectionString = r"DRIVER={SQLite3 ODBC Driver};SERVER=localhost;DATABASE=test.db;Trusted_connection=yes"
+    connectionString = r"DRIVER={SQLite3 ODBC Driver};SERVER=localhost;DATABASE=leonsqlite.db;Trusted_connection=yes"
     conn = pyodbc.connect(connectionString)
     cur = conn.cursor()
     
