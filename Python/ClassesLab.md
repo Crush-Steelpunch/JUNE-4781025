@@ -15,3 +15,19 @@ entertainment.deposit(5)
 
 
 
+### LetterCheck
+
+- write a class called 'Lettercheck'
+- create an attribute called vowels and fill it with vowels
+- create a method that takes a single letter and checks if it is a vowel
+- return true or false
+- rewrite the class so you can create different objects for finding if letters are members of different letter groups
+- [http://rinkworks.com/words/lettergroups.shtml]
+
+### Another simple coding example Classes
+
+Dice Class
+- Write a class called Dice
+- When initialised the object will set how many faces the die has
+- Create objects for 6, 20, 2 and 4 sided die.
+- Roll a charactor sheet for a Swashbuckler Rogue called 'Earl Grey' DnD 5th ed.
