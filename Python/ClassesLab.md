@@ -31,3 +31,10 @@ Dice Class
 - When initialised the object will set how many faces the die has
 - Create objects for 6, 20, 2 and 4 sided die.
 - Roll a charactor sheet for a Swashbuckler Rogue called 'Earl Grey' DnD 5th ed.
+
+
+### Polygon
+
+Goal: “Create class and sub-class objects which represent different geometrical shapes, such as Rectangles and Squares”
+
+objects should have methods to display area and perimeter
