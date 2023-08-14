@@ -13,7 +13,7 @@ entertainment = Budget()
 clothing.withdraw(20)
 entertainment.deposit(5)
 
-
+```
 
 ### LetterCheck
 
